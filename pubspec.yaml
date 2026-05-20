@@ -1,0 +1,60 @@
+name: notification_manager
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  installed_apps: ^2.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  permission_handler: ^12.0.1
+  device_info_plus: ^12.4.0
+  shared_preferences: ^2.5.3
+  crypto: ^3.0.7
+  url_launcher: ^6.3.2
+  provider: ^6.1.5+1
+  path_provider: ^2.1.5
+  video_player: ^2.11.1
+  photo_view: ^0.15.0
+  video_thumbnail: ^0.5.6
+  google_fonts: ^8.0.2
+  clipboard: ^3.0.14
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+  flutter_launcher_icons: ^0.13.1 
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter_native_splash:
+  color: "#2AAEA1"   
+  image: "assets/splash/splash_logo.png"
+  image_dark: "assets/splash/splash_logo.png"
+  android: true
+  ios: true
+  android_12:
+    color: "#2AAEA1"
+    image: "assets/splash/splash_logo.png"
+  web: false
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/splash/
